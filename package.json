@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006 --no-manager-cache",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token d72a4lusz"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "@storybook/html": "^6.1.11",
     "@storybook/theming": "^6.1.11",
     "babel-loader": "^8.2.2",
+    "chromatic": "^5.5.0",
     "storybook": "^6.1.11"
   },
   "dependencies": {}

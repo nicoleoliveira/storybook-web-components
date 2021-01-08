@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run install
-        run: npm run install
+        run: npm install
 
       - name: Run Chromatic
         run: npm run chromatic
